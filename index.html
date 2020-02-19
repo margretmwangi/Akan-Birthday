@@ -1,0 +1,73 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Names</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class ="main">
+    <div class ="introduction">
+        <h1 id = heading> Explore your Akan name. </h1>
+    <div id= "Akan description">
+        <h1><strong>Akan description</strong></h1>
+        <h2 id = "akan story">
+            <h2>This application is intended to calculate the  day of the week one was born
+                by inserting the users birthday details which is evaluated
+                and gives the user first name according to the <em>Ghanian culture</em>
+                depending on their gender.
+            </h2>
+        <h1 id =main  heading>Explore your Akan name</h1>
+    <div id= "Akan description">
+        <h1><strong>Akan description</strong></h1>
+            <p>In Ghana,the people name their childrens first name corresponding  to the day of the week their were born.This app  enables the user to<strong>calculates</strong>the  day of the week one was born
+                and gives the user first name corresponding <em>to the Ghanian
+                culture depending on their gender.</em>Explore your Akan names by simply filling your birthday details.lets get to know the Ghanian culture
+            </div>
+            </div>
+                 <!-- <div id="form group">
+                     <label for="month" class ="label">month</label>
+                     <input type="number" class ="form-control" place holder="enter the month of birth"id ="month of birth" required min ="0" max="12">
+                 </div>
+                     <div class ="form group">
+                         <label for="year of birth" class ="label">year of birth</label>
+                         <input type="number" class ="form-control" placeholder="enter the year of birth"id ="month" required min="0" max="31">
+                     </div>
+                     <div class ="form group">
+                         <label for ="date of birth"  class ="label">date of  birth</label> 
+                         <input type ="number" class ="form control" placeholder="enter the  date of birth " id ="date of birth">
+                     </div>
+                     <form class =" button">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label><br>
+                     </form>
+                     <form class = "button">
+                     <input type="radio" id="female" name="gender" value="female">
+                     <label for="female">Female</label><br>
+                    </form>
+                    <form class ="button">
+                        <input type="submit">
+                    </form>
+                    <div class ="output">
+                        <p id ="myAkan">MY AKAN WILL APPEAR HERE</P>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="container margin">
+                    <label>Day</label><br>
+                    <input type="number" id="day" placeholder="DD" required ><br>
+                    <label>Month</label><br>
+                    <input type="number" id="month" placeholder="MM" required ><br>
+                    <label>Year</label><br>
+                    <input type="number" id="year" placeholder="YYYY" required ><br>
+                    <label>Gender</label><br>
+                    <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+                    <input type="radio" name="gender" value="female" > Female<br>
+                    <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="output()">
+          </div>
+          <h3 id="outcome"></h3>
+        </body>
+<script src="script.js"></script>
+</html>
