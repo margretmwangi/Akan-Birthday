@@ -13,7 +13,9 @@
 ## Technologies Used
 {This app was created using the HTML, Javascript, css.}
 ## Support and contact details
-{Incase of any idea, any clarification needed to be done and any arising concern about this application contact me using this email:margaret13mwangi@gmail.com.}
+{Incase of any idea, any clarification needed to be done and any arising concern about this application contact me using this email:margaret13mwangi@gmail.com
+####  link to the live site:[https://margretmwangi.github.io/Akan-…
+]
 ### License
 *{This application was licensed under MIT license group}*
 Copyright (c) {2020} **{ Margretmwangi}*
